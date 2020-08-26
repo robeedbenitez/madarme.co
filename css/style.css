@@ -9,10 +9,37 @@
 }
 .s1{
   width: 60%;
-  height: 5000px;
-  display:block;
+	display: block;
 	justify-content: center;
 	align-items: center;
+}
+
+.s1content{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	/* background-color: red; */
+	padding: 5%;
+}
+.s1contentinfo h2{
+	display: flex;
+	justify-content: center;
+}
+.s1contentinfo{
+	/* background-color: green; */
+	padding: 5%;
+	font-size: xx-large;
+}
+.s1contentinfo img{
+	width: 5%;
+}
+.ubication{
+	display: flex;
+	text-decoration: none;
+}
+.seed img{
+	width: 80%;
+	height: auto;
 }
 .s2{
 	display: block;
@@ -38,25 +65,33 @@
 	width: 80%;
 }
 .logo-i{
-	width: 70%;
+	width: 100%;
+	z-index: 1;
 
 }
 .description{
 	height: 40%;
-	padding: 10% 5% 0% 5%;
+	padding: 5% 3%;
 	border-top: 1px solid #0D0D0D;
 	/* border-bottom: 1px solid #0D0D0D; */
 	font-size: large;
 	text-align: justify;
 }
 .description2{
-	/* display: flex; */
-	align-content: space-between;
+	display: block;
 }
-.correos{
-	list-style: none;
+.emails{
+	display: flex;
+	padding: 3% 0%;
+}
+.emails img{
+	width: 10%;
+}
+.email{
+	display: flex;
+	justify-content: center;
+}
 
-}
 .map-content{
 	border-radius: 10%;
 	/* overflow: hidden; */
@@ -67,7 +102,6 @@
 }
 
 .social-networks{
-	height: 20%;
 	display: flex;
 	justify-content: space-between;
 	padding: 0% 15%;
