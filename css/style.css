@@ -10,37 +10,9 @@
 .s1{
   width: 60%;
 	display: block;
-	justify-content: center;
-	align-items: center;
 }
 
-.s1content{
-	display: flex;
-	justify-content: center;
-	height: 100vh;
-	/* background-color: red; */
-	padding: 5%;
-}
-.s1contentinfo h2{
-	display: flex;
-	justify-content: center;
-}
-.s1contentinfo{
-	/* background-color: green; */
-	padding: 5%;
-	font-size: xx-large;
-}
-.s1contentinfo img{
-	width: 5%;
-}
-.ubication{
-	display: flex;
-	text-decoration: none;
-}
-.seed img{
-	width: 80%;
-	height: auto;
-}
+
 .s2{
 	display: block;
   width: 40%;
