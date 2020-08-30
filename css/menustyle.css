@@ -1,29 +1,48 @@
 
 .menu{
-  background-color: gray;
+  /* background-color: #BFBFBF; */
   margin: 5%;
 }
 
-.menu .menu-content, .list{
+.menu, .list{
 	list-style: none;
 	text-decoration: none;
-  font-size: 40px;
 }
-.menu .menu-content li a{
-	color: white;
-	text-decoration: none;
+.menu .menu-content a{
+  color: black;
+  font-size:45px;
   display: block;
-  padding: 2%;
+}
+
+.li-content{
+  display: flex;
+  justify-content: center;
+}
+
+.li-item{
+  padding: 2% 0%;
+}
+
+.li-university{
+  font-size: 35px;
+}
+.li-title{
+  font-size: 25px;
+  text-decoration: none;
+}
+.li-position, .li-ubication{
+  font-size: 20px;
+}
+
+.menu .menu-content li a{
+	text-decoration: none;
+
 }
 .menu .menu-content ul li{
   background: #BFBFBF;
 }
 .menu .menu-content li a .icon {
   float: right;
-}
-.menu li:hover{
-  background: #404040;
-	color: white;
 }
 .menu .menu-content ul{
   display: none;

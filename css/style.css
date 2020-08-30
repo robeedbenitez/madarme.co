@@ -9,7 +9,8 @@
 }
 .s1{
   width: 60%;
-	display: block;
+	height: auto;
+
 }
 
 
@@ -90,6 +91,14 @@
 .gitlab{
 	width: 100%;
 }
+
+.ubication {
+	display: flex !important;
+}
+.ubication img{
+	width: 3%;
+}
+
 .social-icon a{
 	width: 80%;
 }
